@@ -10,22 +10,35 @@
     <link rel="stylesheet" href="estilos/hero.css">    
     <script src="https://kit.fontawesome.com/16c3329705.js" crossorigin="anonymous"></script>
     <title>Taleno Tech Ecommerce Tutorial</title>
+     <link rel="stylesheet" href="carrito.css">
 </head>
 
 <body>
     <header class="header">
         <a href="#">
-            <img src="img/Skate LOGO.jpg" class="logo" alt="" width="50px" height="50px">
+            <img src="img/Skate LOGO.jpg" class="logo" alt="" width="100px" height="100px">
         </a>
         <div>
             <ul id="navbar" class="navbar">
                 <li><a href="">Home</a></li>
-                <li><a href="">Tienda</a></li>
+                <li><a href="#productos">Tienda</a></li>
                 <li><a href="">Blog</a></li>                               
                 <li>
-                    <a href="cart.html">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                    </a>
+  <a href="carrito.html">
+    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+  </a>
+</li>
+                <!-- close button -->
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+            <div class="mobile">
+    <i id="bar" class="fa fa-bars"></i>
+    <a href="./pages/carrito.html">
+        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+    </a>
+   </div>                
                 </li>
             </ul>
         </div>
@@ -43,97 +56,8 @@
         <section class="section-productos section-p1">
             <h2>"Tu tabla. Tu estilo. Tu mundo."</h2>
             <p>Ofertas que no te podés perder</p>
-            <div class="productos-container">
-                <div class="producto">
-                    <img src="img/productos/tabla-dragon.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Tabla Dragon</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$99</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/lijaskate.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Lija Negra</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$48</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/casco-negro.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Casco Negro</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$65</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/ruedas-skate.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Ruedas</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$35</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/tornillos-skateboard.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Tornillos skate (allen)</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$15</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/trucks skate.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Trucks skate (105mm)</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>75</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/zapatillas skate.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Zapatillas Fallen</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$58</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/mochila-skate.jpg" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Mochila </span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-
-            </div>
+            <div class="productos-container" id="productos-container"></div>         
+           <script src="index.js"></script>
         </section>
     </main>
     <footer class="footer">
@@ -188,5 +112,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
 </body>
 </html>

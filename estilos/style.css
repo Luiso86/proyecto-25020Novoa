@@ -130,3 +130,24 @@ body {
   margin-bottom: 10px;
   font-size: 20px;
 }
+.img-casco {
+    display: block;
+    margin: 0 auto;
+    max-height: 300px; /* Ajusta el valor según el tamaño de las otras imágenes */
+    object-fit: contain;
+}
+.casco-descripcion {
+    margin-top: 130px; /* Ajusta el valor según lo que necesites */
+}
+.zapatillas-descripcion {
+    margin-top: 70px; /* Usa el mismo valor que casco, ajusta si es necesario */
+}
+.logo {
+    border-radius: 40%;
+}
+.producto:hover {
+    box-shadow: 0 0 20px #4f96ec;
+    transform: scale(1.03);
+    transition: 0.3s;
+    z-index: 2;
+}

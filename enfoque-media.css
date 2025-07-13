@@ -1,22 +1,3 @@
-/* Enfoque Desktop-First (usando max-width): */
-/* Estilos base para desktop */
-.elemento { width: 25%; }
-
-/* Desktop medio */
-@media (max-width: 1200px) {
-    .elemento { width: 33.33%; }
-}
-
-/* Tablets */
-@media (max-width: 992px) {
-    .elemento { width: 50%; }
-}
-
-/* Móviles */
-@media (max-width: 576px) {
-    .elemento { width: 100%; }
-}
-
 /* Enfoque Mobile-First (usando min-width): */
 
 /* Estilos base para móviles */
