@@ -3,21 +3,21 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: '1',
             nombre: 'Tabla Dragon',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 99,
             imagen: 'img/productos/tabla-dragon.jpg'
         },
         {
             id: '2',
             nombre: 'Lija Negra',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 48,
             imagen: 'img/productos/lijaskate.jpg'
         },
         {
             id: '3',
             nombre: 'Casco Negro',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 65,
             imagen: 'img/productos/casco-negro.jpg',
             claseDesc: 'casco-descripcion'
@@ -25,28 +25,28 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: '4',
             nombre: 'Ruedas',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 35,
             imagen: 'img/productos/ruedas-skate.jpg'
         },
         {
             id: '5',
             nombre: 'Tornillos skate (allen)',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            ddescripcion: '',
             precio: 15,
             imagen: 'img/productos/tornillos-skateboard.jpg'
         },
         {
             id: '6',
             nombre: 'Trucks skate (105mm)',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 75,
             imagen: 'img/productos/trucks skate.jpg'
         },
         {
             id: '7',
             nombre: 'Zapatillas Fallen',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 58,
             imagen: 'img/productos/zapatillas skate.jpg',
     claseDesc: 'zapatillas-descripcion'
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: '8',
             nombre: 'Mochila',
-            descripcion: 'Lorem ipsum dolor sit amet.',
+            descripcion: '',
             precio: 78,
             imagen: 'img/productos/mochila-skate.jpg'
         }
