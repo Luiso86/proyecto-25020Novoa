@@ -1,2 +1,1 @@
-En este proyecto no use una API para los productos , ya que no encontre una que sea de productos de skate o relacionados ,y  no queria cambiarla , me faltaria lograr agregar los eventos para hacer "click" al producto y pase al carrito....
-tambien tengo que trabajar mas en el footer ,y crear una mejor legibilidad en su codigo.
+En este proyecto no use una API para los productos , ya que no encontre una que sea de productos de skate o relacionados :Tambien tengo que trabajar mas en el footer ,y crear una mejor legibilidad en su codigo.
